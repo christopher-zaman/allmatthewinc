@@ -12,7 +12,44 @@ body {
 
   }
   /*changes*/
+  .quartz-bg {
+    background-image: linear-gradient(182deg, #D9E3F1, #D9E3F1, #ffffff);
+    }
+    .padding-top-5 {
+      padding-top: 5px;
+    }
+  .current-border-gradient {
+        border-top: 4px solid;
+        border-image: linear-gradient(90deg, #D9E3F1, #97d9ff, #6cc9ff, #41B0F0);
+        border-image-slice: 1;
+  }
+  .border-gradient-payments {
+    border-top: 4px solid;
+      border-image: linear-gradient(270deg, #ffffff, #aeb2ff, #4c67ff, #020093);
+      border-image-slice: 1;
+  }
+  .transparent-bg {
+        background-color: rgba(255, 255, 255, 0.4);
+  }
+  .carwash-footer-bg{
+    background-image:url(../images/droplets-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
+  }
+  .footer-transparent-box {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  .font-size-larger {
+    font-size: larger;
+  }
+  .font-size-large{
+    font: font-size-large;
+  }
+  .text-dark-green {
+    color: #6a8f3e;
+  }
   .width-80-percent {
     width: 80%;
   }
@@ -46,6 +83,9 @@ body {
   .morph-theme-border-and-text-color{
     border: 1px dotted;
     color: #514ea1;
+  }
+  .font-size-x-large{
+    font-size: x-large;
   }
   .bg-text-transparent{
     background-color: rgba(0,0,0,0.4);
@@ -1060,7 +1100,8 @@ h1, h2, h3, h4, h5,
   color:green !important;
 }
 .footer-section {
-  padding: 7em 0; }
+  padding: 7em 0; 
+}
   .footer-section p {
     font-size: 1rem; }
   .footer-section h3 {
