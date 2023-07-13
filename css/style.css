@@ -5,6 +5,8 @@ html {
  }
 
 body {
+  overflow-x: hidden;
+    width: auto;
   line-height: 1.7;
   font-weight: 300;
   font-size: 1.1rem;
@@ -31,12 +33,40 @@ body {
   .transparent-bg {
         background-color: rgba(255, 255, 255, 0.4);
   }
-  .carwash-footer-bg{
+  .droplets-bg{
     background-image:url(../images/droplets-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
   }
+    .carwash-footer-bg {
+      background-image: url(../images/carwash-footer.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+    }
+    .trailer-bg {
+      background-image: url(../images/trailer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .suv-bg {
+      background-image: url(../images/suv.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 2rem;
+    }
+    .site-section-car-wash {
+      padding: 3rem;
+    }
+    .small-cars-styles{
+      text-align:center;
+      background-color: rgba(255,255,255,0.6);
+    }
+    .large-cars-styles {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
   .footer-transparent-box {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
