@@ -63,6 +63,12 @@ body {
       text-align:center;
       background-color: rgba(255,255,255,0.6);
     }
+    .tractor-footer-bg {
+      background-image: url(../images/tractor.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 3rem;
+    }
     .large-cars-styles {
       text-align: center;
       background-color: rgba(255, 255, 255, 0.8);
