@@ -1198,6 +1198,9 @@ and (max-device-width : 667px)
    .first-form{
      display:none;
    }
+   .google-form-height{
+    height: 1930px;
+   }
 }
 
 /*iPhone 7 in landscape*/
