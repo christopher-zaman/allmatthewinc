@@ -17,6 +17,9 @@ body {
   .quartz-bg {
     background-image: linear-gradient(182deg, #D9E3F1, #D9E3F1, #ffffff);
     }
+  .quartz-bg-upside-down {
+    background-image: linear-gradient(45deg, #D9E3F1, #D9E3F1, #ffffff);
+  }
     .padding-top-5 {
       padding-top: 5px;
     }
@@ -27,8 +30,13 @@ body {
   }
   .border-gradient-payments {
     border-top: 4px solid;
-      border-image: linear-gradient(270deg, #ffffff, #aeb2ff, #4c67ff, #020093);
-      border-image-slice: 1;
+    border-image: linear-gradient(270deg, #ffffff, #aeb2ff, #4c67ff, #020093);
+    border-image-slice: 1;
+  }
+  .border-gradient-payments-backwards {
+    border-top: 4px solid;
+    border-image: linear-gradient(270deg, #020093, #4c67ff, #aeb2ff, #ffffff);
+    border-image-slice: 1;
   }
   .transparent-bg {
         background-color: rgba(255, 255, 255, 0.4);
